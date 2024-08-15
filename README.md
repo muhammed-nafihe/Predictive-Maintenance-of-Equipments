@@ -6,9 +6,15 @@ This repository contains a series of machine learning experiments and models dev
 The repository includes the following datasets:
 
 dataset1.csv: The raw dataset used in this project.
+
+
 preprocessed_dataset.csv: The dataset after initial preprocessing steps.
+
+
 split_data.pkl: The dataset split into training and testing sets.
-Preprocessing
+
+
+# Preprocessing
 The preprocessing of data is an essential step before applying machine learning models. The preprocessing steps used in this project are documented in preprocessing.ipynb. The notebook covers data cleaning, handling missing values, encoding categorical variables, and scaling numerical features.
 
 # Exploratory Data Analysis (EDA)

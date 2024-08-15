@@ -11,20 +11,25 @@ split_data.pkl: The dataset split into training and testing sets.
 Preprocessing
 The preprocessing of data is an essential step before applying machine learning models. The preprocessing steps used in this project are documented in preprocessing.ipynb. The notebook covers data cleaning, handling missing values, encoding categorical variables, and scaling numerical features.
 
-Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 The EDA process is documented in EDA.ipynb. This notebook includes visualizations and statistical analyses to understand the distribution of the data, relationships between variables, and potential anomalies or outliers.
 
-Feature Selection
+# Feature Selection
 Feature selection is crucial to improving model performance by eliminating irrelevant or redundant features. The steps and techniques used for feature selection are outlined in featureselection.ipynb.
 
-SMOTE
+# SMOTE
 To handle class imbalance, the Synthetic Minority Over-sampling Technique (SMOTE) was applied. The implementation and impact on model performance are documented in SMOTE.ipynb
 
-Models
+# Models
 This project explores various machine learning models, each documented in its respective notebook:
 
-DNN.ipynb: Implementation of a Deep Neural Network model.
-LogisticRegression.ipynb: Logistic Regression model for binary classification.
-RandomForest.ipynb: Random Forest model for ensemble learning.
-SVM.ipynb: Support Vector Machine model for classification tasks.
-XGBoost.ipynb: Extreme Gradient Boosting model for boosted tree classification.
+DNN.ipynb
+
+
+LogisticRegression.ipynb
+
+
+RandomForest.ipynb
+
+SVM.ipynb
+XGBoost.ipynb
